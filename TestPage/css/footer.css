@@ -1,0 +1,49 @@
+
+#footer-menu {
+    width: 1200px;
+    background: black;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+
+#footer-menu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+
+#footer-menu ul li a {
+    background-color: black;
+    color: lightgray;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+#footer-menu ul li a:hover {
+    background-color: #666;
+}
+
+#company {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    color: lightgray;
+    padding: 0 15px;
+    line-height: 40px;
+    display: block;
+}
