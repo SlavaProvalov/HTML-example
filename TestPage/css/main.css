@@ -1,0 +1,385 @@
+a, a:active, a:visited {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #332f2b;
+    text-decoration: none;
+    padding: 5px;
+}
+
+button {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgba(26, 0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div, form {
+    display: inline;
+}
+
+span {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+td {
+    border: 2px solid lightgray;
+}
+
+#welcome, #sign_in {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: none;
+    padding-left: 10px;
+}
+
+#sign_in {
+    text-decoration: underline;
+    padding: 2px;
+    text-transform: none;
+}
+
+.help_bar {
+    float: left;
+}
+
+.search_form {
+    display: inline;
+    float: right;
+    position: relative;
+}
+
+.wishlist {
+    float: right;
+    display: inline;
+    position: relative;
+    margin-left: 5px;
+    top: 6px;
+    padding-right: 5px;
+}
+
+.cart {
+    position: relative;
+    top: 6px;
+    float: left;
+}
+
+.total_price {
+
+    position: relative;
+    top: 6px;
+    float: right;
+}
+
+.total_price span {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.wishlist-count {
+
+    display: inline;
+}
+
+.search {
+    width: 14.0rem;
+    height: 2.0rem;
+    box-sizing: border-box;
+    float: left;
+    border: none;
+    /*border-bottom: 1px solid grey;*/
+    background-color: #fff;
+}
+
+.search:hover {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.search_submit {
+    width: 33px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent url(../images/search.png) no-repeat center center;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+.header > td {
+    border-bottom: 2px solid #a8a7a7;
+}
+
+.vertical_line {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 5px;
+    top: 5px;
+}
+
+.header {
+    height: 40px;
+}
+
+#header_left {
+    padding-left: 10%;
+    width: 40%;
+}
+
+#header_middle {
+    border-right: 2px solid #a8a7a7;
+    width: 30%;
+}
+
+#header_right {
+    padding-right: 10%;
+    width: 10%;
+}
+
+.logo {
+    height: 80px;
+}
+
+.logo > td img {
+    padding: 5px;
+}
+
+#logo_left {
+    padding-left: 10%;
+    width: 20%;
+}
+
+#logo_center {
+    width: 40%;
+}
+
+#logo_right {
+    padding-right: 10%;
+    width: 20%;
+}
+
+.navigation {
+    width: 100%;
+    padding: 0 10% 0 10%;
+}
+
+.logo_table, .header_table {
+    margin: auto;
+    width: 1200px;
+    /*border: 2px solid lightgray;*/
+}
+
+.middle_table {
+    margin: auto;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+.offers_table {
+    margin: auto;
+    width: 1200px;
+}
+
+.new-collection-table {
+    margin: auto;
+    width: 1200px;
+
+    /*border: dashed;*/
+}
+
+.localeFlag > span {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+}
+
+.main_menu {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main_menu > ul {
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    padding: 0px;
+
+    width: 100%;
+    list-style: none;
+
+}
+
+.main_menu > ul li {
+    margin-left: 1%;
+    text-align: center;
+    display: inline;
+
+    /*border: dashed;*/
+}
+
+.main_menu > ul li:first-child {
+    margin-left: 0;
+    float: left;
+}
+
+.main_menu > ul li:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.main_menu > li a {
+    font-family: GibsonRegular, Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #3c3c3c;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    display: inline;
+}
+
+#sale > a {
+    color: #ad0707;
+    font-weight: 500;
+}
+
+.main_banner {
+    margin: 0;
+    padding: 0;
+    /*border: none;*/
+}
+
+.banner-img {
+    width: 1200px;
+    padding: 0px;
+    margin: 0;
+    border: none;
+    z-index: 20;
+}
+
+.short-line {
+    padding: 0 10px 0 10px;
+    position: relative;
+    top: -5px;
+    z-index: 1;
+}
+
+.banner-small-text {
+    top: -280px;
+    left: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+.slogan-text {
+    position: relative;
+    z-index: 1;
+    top: -200px;
+    left: -70px;
+}
+
+.button_shop_new_in {
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    width: 217px;
+    height: 50px;
+    z-index: 106;
+}
+
+.button_shop_now {
+    border: 2px solid rgb(255, 255, 255);
+
+    position: relative;
+    color: white;
+    left: 520px;
+    top: -140px;
+    width: 160px;
+    height: 40px;
+    z-index: 1;
+}
+
+.button_shop_now:hover, .button_shop_new_in:hover {
+    background-color: #767676;
+    color: white;
+}
+
+.special-offer {
+    width: 60%;
+    padding: 20px 80px 0 80px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+
+.small-banner {
+    width: 40%;
+}
+
+.small-banner img {
+    width: 480px;
+
+}
+
+.special-offer-title {
+    font-family: Calibri, sans-serif;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+
+.special-offer-description {
+    margin: auto;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.special-offer-currency, .special-offer-price {
+    margin: auto;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.under_banner img {
+    float: right;
+}
+
+.middle_table td {
+    border: 2px solid lightgray;
+}
+
+.offers_table {
+    padding: 0 7% 0 7%;
+}
+
+.social-sharing table {
+    width: 100%;
+}
+
+.top-sn td {
+    width: 33%;
+
+}
+
+.bottom-sn td {
+    width: 50%;
+}
+
+.left-top-img, .right-top-img, .left-bottom-img, .right-bottom-img {
+    width: 90%;
+}
+
+.right-top-img .right-bottom-img {
+    float: right;
+}
